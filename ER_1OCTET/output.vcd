@@ -1,0 +1,549 @@
+$date
+   Tue Nov 23 15:04:10 2021
+$end
+$version
+  P.20131013
+$end
+$timescale
+  1ps
+$end
+$scope module test_er_1octet $end
+$var wire 1 D clk $end
+$var wire 1 C reset $end
+$var wire 1 E en $end
+$var wire 1 M din [7] $end
+$var wire 1 L din [6] $end
+$var wire 1 K din [5] $end
+$var wire 1 J din [4] $end
+$var wire 1 I din [3] $end
+$var wire 1 H din [2] $end
+$var wire 1 G din [1] $end
+$var wire 1 F din [0] $end
+$var wire 1 N miso $end
+$var wire 1 Y busy $end
+$var wire 1 X dout [7] $end
+$var wire 1 W dout [6] $end
+$var wire 1 V dout [5] $end
+$var wire 1 U dout [4] $end
+$var wire 1 T dout [3] $end
+$var wire 1 S dout [2] $end
+$var wire 1 R dout [1] $end
+$var wire 1 Q dout [0] $end
+$var wire 1 O sclk $end
+$var wire 1 P mosi $end
+$var wire 1 8 busy_ref $end
+$var wire 1 @ dout_ref [7] $end
+$var wire 1 ? dout_ref [6] $end
+$var wire 1 > dout_ref [5] $end
+$var wire 1 = dout_ref [4] $end
+$var wire 1 < dout_ref [3] $end
+$var wire 1 ; dout_ref [2] $end
+$var wire 1 : dout_ref [1] $end
+$var wire 1 9 dout_ref [0] $end
+$var wire 1 A sclk_ref $end
+$var wire 1 B mosi_ref $end
+$scope module m $end
+$var wire 1 C rst $end
+$var wire 1 D clk $end
+$var wire 1 E en $end
+$var wire 1 M din [7] $end
+$var wire 1 L din [6] $end
+$var wire 1 K din [5] $end
+$var wire 1 J din [4] $end
+$var wire 1 I din [3] $end
+$var wire 1 H din [2] $end
+$var wire 1 G din [1] $end
+$var wire 1 F din [0] $end
+$var wire 1 N miso $end
+$var wire 1 O sclk $end
+$var wire 1 P mosi $end
+$var wire 1 X dout [7] $end
+$var wire 1 W dout [6] $end
+$var wire 1 V dout [5] $end
+$var wire 1 U dout [4] $end
+$var wire 1 T dout [3] $end
+$var wire 1 S dout [2] $end
+$var wire 1 R dout [1] $end
+$var wire 1 Q dout [0] $end
+$var wire 1 Y busy $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0C
+0D
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0N
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+1O
+0P
+08
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+1A
+0B
+0E
+$end
+#5000
+1D
+#10000
+0D
+#15000
+1D
+#20000
+0D
+#25000
+1D
+#30000
+0D
+#35000
+1D
+#40000
+0D
+#45000
+1D
+#50000
+0D
+#55000
+1D
+#60000
+0D
+#65000
+1D
+#70000
+0D
+#75000
+1D
+#80000
+0D
+#85000
+1D
+#90000
+0D
+#95000
+1D
+#100000
+1C
+0D
+#105000
+1D
+#110000
+0D
+#115000
+1D
+#120000
+0D
+1N
+#125000
+1D
+#130000
+0D
+#135000
+1D
+#140000
+0D
+#145000
+1D
+#150000
+0D
+#155000
+1D
+#160000
+0D
+0N
+#165000
+1D
+#170000
+0D
+#175000
+1D
+#180000
+0D
+#185000
+1D
+#190000
+0D
+1N
+#195000
+1D
+#200000
+0D
+1M
+1K
+1J
+1H
+1F
+1E
+#205000
+1D
+1Y
+0O
+1P
+18
+0A
+1B
+#210000
+0D
+xM
+xL
+xK
+xJ
+xI
+xH
+xG
+xF
+0E
+#215000
+1D
+1O
+1A
+#220000
+0D
+#225000
+1D
+0O
+0P
+0A
+0B
+#230000
+0D
+0N
+#235000
+1D
+1O
+1A
+#240000
+0D
+#245000
+1D
+0O
+1P
+0A
+1B
+#250000
+0D
+#255000
+1D
+1O
+1A
+#260000
+0D
+1N
+#265000
+1D
+0O
+0A
+#270000
+0D
+#275000
+1D
+1O
+1A
+#280000
+0D
+#285000
+1D
+0O
+0P
+0A
+0B
+#290000
+0D
+#295000
+1D
+1O
+1A
+#300000
+0D
+0N
+#305000
+1D
+0O
+1P
+0A
+1B
+#310000
+0D
+#315000
+1D
+1O
+1A
+#320000
+0D
+#325000
+1D
+0O
+0P
+0A
+0B
+#330000
+0D
+1N
+#335000
+1D
+1O
+1A
+#340000
+0D
+#345000
+1D
+0O
+1P
+0A
+1B
+#350000
+0D
+#355000
+1D
+0Y
+1X
+1U
+1T
+1R
+1Q
+1O
+08
+1@
+1=
+1<
+1:
+19
+1A
+#360000
+0D
+#365000
+1D
+#370000
+0D
+0N
+#375000
+1D
+#380000
+0D
+#385000
+1D
+#390000
+0D
+#395000
+1D
+#400000
+0D
+1N
+#405000
+1D
+#410000
+0D
+#415000
+1D
+#420000
+0D
+0M
+0L
+1K
+1J
+0I
+1H
+0G
+0F
+1E
+#425000
+1D
+1Y
+0O
+0P
+18
+0A
+0B
+#430000
+0D
+xM
+xL
+xK
+xJ
+xI
+xH
+xG
+xF
+0E
+#435000
+1D
+1O
+1A
+#440000
+0D
+0N
+#445000
+1D
+0O
+0A
+#450000
+0D
+#455000
+1D
+1O
+1A
+#460000
+0D
+#465000
+1D
+0O
+1P
+0A
+1B
+#470000
+0D
+1N
+#475000
+1D
+1O
+1A
+#480000
+0D
+#485000
+1D
+0O
+0A
+#490000
+0D
+#495000
+1D
+1O
+1A
+#500000
+0D
+#505000
+1D
+0O
+0P
+0A
+0B
+#510000
+0D
+0N
+#515000
+1D
+1O
+1A
+#520000
+0D
+#525000
+1D
+0O
+1P
+0A
+1B
+#530000
+0D
+#535000
+1D
+1O
+1A
+#540000
+0D
+1N
+#545000
+1D
+0O
+0P
+0A
+0B
+#550000
+0D
+#555000
+1D
+1O
+1A
+#560000
+0D
+#565000
+1D
+0O
+0A
+#570000
+0D
+#575000
+1D
+0Y
+1V
+0T
+1O
+08
+1>
+0<
+1A
+#580000
+0D
+0N
+#585000
+1D
+#590000
+0D
+#595000
+1D
+#600000
+0D
+#605000
+1D
+#610000
+0D
+1N
+#615000
+1D
+#620000
+0D
+#625000
+1D
+#630000
+0D
+#635000
+1D
+#640000
+0D
+#645000
+1D
+#650000
+0D
+0N
+#655000
+1D
+#660000
+0D
+#665000
+1D
+#670000
+0D
+#675000
+1D
+#680000
+0D
+1N
+#685000
+1D
+#690000
+0D
+#695000
+1D
+#700000
+0D

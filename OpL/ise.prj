@@ -1,0 +1,4 @@
+vhdl work "../ER_1OCTET/er_1octet.vhd"
+vhdl work "SlaveOpl.vhd"
+vhdl work "MasterOpl.vhd"
+vhdl work "TestOpl.vhd"

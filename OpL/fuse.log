@@ -1,0 +1,25 @@
+Running: /mnt/n7fs/install/xilinx_14.7/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o bin -prj ise.prj -top TestOpl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "../ER_1OCTET/er_1octet.vhd" into library work
+Parsing VHDL file "SlaveOpl.vhd" into library work
+Parsing VHDL file "MasterOpl.vhd" into library work
+Parsing VHDL file "TestOpl.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83460 KB
+Fuse CPU Usage: 900 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral_3 of entity er_1octet [er_1octet_default]
+Compiling architecture behavioral of entity MasterOpl [\MasterOpl(10,3,3)\]
+Compiling architecture behavioral of entity SlaveOpl [slaveopl_default]
+Compiling architecture behavior of entity testopl
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable bin
+Fuse Memory Usage: 649256 KB
+Fuse CPU Usage: 920 ms
+GCC CPU Usage: 540 ms
